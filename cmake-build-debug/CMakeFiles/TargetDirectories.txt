@@ -1,0 +1,3 @@
+G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/cmake-build-debug/CMakeFiles/Coupon_collection.dir
+G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/cmake-build-debug/CMakeFiles/rebuild_cache.dir
