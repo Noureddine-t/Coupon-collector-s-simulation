@@ -127,6 +127,7 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int Vignet
 
     bool* collected=new bool[collectionNumber]; // Allocation dynamique du tableau
 
+
     for (int i = 0; i < collectionNumber; i++)
         collected[i] = false;
 
@@ -134,29 +135,42 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int Vignet
     int duplicatesVignette = 0;
     while (true) {
         weeks++;
-        int* newVignetteTable = new int[VignetteNumber]; //si on a plus d'une vignette dans le céréal
+
+
+        std::cout<<"semaine:"<<weeks<<std::endl;
+        for (int i = 0; i < collectionNumber; i++)
+            std::cout<<"tableau collected:"<<collected[i]<<std::endl;
+
+        int* newVignetteTable = new int[VignetteNumber]; //si on a plus d'une vignette dans le céréale
 
         for (int i = 0; i < VignetteNumber; i++){
             newVignetteTable[i] = rand() % collectionNumber;
             if (!collected[newVignetteTable[i]])
                 collected[newVignetteTable[i]] = true;
-            else
+            else{
                 duplicatesVignette++;
+            }
+
+            std::cout<<"vignette dupliquee :"<<duplicatesVignette<<std::endl;
+
+
         }
+
         bool allCollected = true;
 
         for (int i = 0; i < collectionNumber; i++) {
             //echanger 10 vignettes contre une
-            if (!collected[i] && duplicatesVignette==10 ) {
+            if (!collected[i] && duplicatesVignette>=10 ) {
                 collected[i] = true;
-                duplicatesVignette=0;
-                break;
+                duplicatesVignette=duplicatesVignette-10;
+                std::cout<<"vignette after -10:"<<duplicatesVignette<<std::endl;
             }
             //verifier si toutes les vignettes sont collectées
             if (!collected[i]) {
                 allCollected = false;
                 break;
             }
+
         }
         //verifier si tout les vignettes collecter pour finir
         if (allCollected)
