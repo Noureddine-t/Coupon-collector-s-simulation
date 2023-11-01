@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/cmake-build-debug",
-		"source" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection"
+		"build" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug",
+		"source" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation"
 	},
 	"version" : 
 	{
