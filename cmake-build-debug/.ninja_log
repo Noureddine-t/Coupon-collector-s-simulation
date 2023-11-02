@@ -1,3 +1,23 @@
 # ninja log v5
 2	284	7205657529913517	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3a14829c96ea910c
 284	369	7205657530719847	Coupon_collection.exe	1d32f1636921c9e5
+2	843	7205826616391268	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+843	1078	7205826618681530	Coupon_collection.exe	1d32f1636921c9e5
+1	284	7205829917056347	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+284	371	7205829917893477	Coupon_collection.exe	1d32f1636921c9e5
+1	285	7205830936414829	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+286	373	7205830937260504	Coupon_collection.exe	1d32f1636921c9e5
+2	285	7205832336847999	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+285	373	7205832337699416	Coupon_collection.exe	1d32f1636921c9e5
+1	287	7205832851789925	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+288	374	7205832852615084	Coupon_collection.exe	1d32f1636921c9e5
+3	287	7205833994706479	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+287	374	7205833995530610	Coupon_collection.exe	1d32f1636921c9e5
+2	1150	7206453386961029	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+1151	1530	7206453390723413	Coupon_collection.exe	1d32f1636921c9e5
+2	278	7206453824617917	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+279	356	7206453825360584	Coupon_collection.exe	1d32f1636921c9e5
+2	275	7206454720204728	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+276	350	7206454720918021	Coupon_collection.exe	1d32f1636921c9e5
+2	267	7206455522204246	CMakeFiles/Coupon_collection.dir/main.cpp.obj	3e535a47326ab7ce
+268	342	7206455522908802	Coupon_collection.exe	1d32f1636921c9e5

@@ -7,6 +7,10 @@ int simulateCollectionWithExchange(int);
 
 int simulateWithMultipleCollectionsWithExchange(int, int);
 
+double theoricalValueUsingHarmonicSerie(int);
+
+double theoricalValueUsingAsymptoticDevelopment(int collectionNumber);
+
 int main() {
     int collectionNumber = 100; //valeur par defaut pour nombre total de collection
     int simulations = 1000;  // Nombre de simulations à exécuter pour avoir une valeur moyenne plus exacte
@@ -40,17 +44,22 @@ int main() {
         if (vignetteNumber == 0)
             break;
 
+        double averageWeeks[] = {0, 0, 0, 0, 0};//semaines necessaires avec echange et sans echange
 
-        double averageWeeks[] = {0, 0, 0};//semaines necessaires avec echange et sans echange
         //calcule moyenne de semaines
         for (int i = 0; i < simulations; i++) {
+            //std::cout << "Simulation " << i << "/" << simulations << std::endl;
             averageWeeks[0] += simulateCollection(collectionNumber);
             averageWeeks[1] += simulateCollectionWithExchange(collectionNumber);
             averageWeeks[2] += simulateWithMultipleCollectionsWithExchange(collectionNumber, vignetteNumber);
+            averageWeeks[3] += theoricalValueUsingHarmonicSerie(collectionNumber);
+            averageWeeks[4] += theoricalValueUsingAsymptoticDevelopment(collectionNumber);
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;
         averageWeeks[2] /= simulations;
+        averageWeeks[3] /= simulations;
+        averageWeeks[4] /= simulations;
         //Affichage
         std::cout << "Il faut en moyenne " << averageWeeks[0] << " semaines pour completer la collection de "
                   << collectionNumber << " vignettes sans echange." << std::endl;
@@ -58,6 +67,14 @@ int main() {
                   << collectionNumber << " vignettes avec echange 10 contre 1." << std::endl;
         std::cout << "Il faut en moyenne " << averageWeeks[2] << " semaines pour completer la collection de "
                   << collectionNumber << " vignettes avec echange et " << vignetteNumber << " dans le cereale"
+                  << std::endl;
+        std::cout << "Il faut en moyenne " << averageWeeks[3]
+                  << " semaines pour completer la collection de "
+                  << collectionNumber << " vignettes sans echange a l'aide de la formule theorique somme 1/k."
+                  << std::endl;
+        std::cout << "Il faut en moyenne " << averageWeeks[4]
+                  << " semaines pour completer la collection de "
+                  << collectionNumber << " vignettes sans echange a l'aide de l'approximation de la forumule theorique."
                   << std::endl;
     }
     return 0;
@@ -189,4 +206,17 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
     }
     delete[] collected; // Libération de la mémoire allouée dynamiquement
     return weeks;
+}
+
+//on utilisant série harmonique: N*sum(1/k) de 1 a N
+double theoricalValueUsingHarmonicSerie(int collectionNumber) {
+    double somme = 0;
+    for (int i = 1; i <= collectionNumber; i++)
+        somme += 1.0 / i;
+    return collectionNumber * somme;
+}
+
+//on utilisant En utilisant le développement asymptotique E(Tn)=n⋅Hn=nln(n)+γ⋅n+1/2+o(1) où γ≈0.5772156649 est la constante d'Euler-Mascheroni.
+double theoricalValueUsingAsymptoticDevelopment(int collectionNumber) {
+    return collectionNumber * (std::log(collectionNumber) + 0.57721 + 1. / 2);  // Utilise ln(n) + γ;
 }
