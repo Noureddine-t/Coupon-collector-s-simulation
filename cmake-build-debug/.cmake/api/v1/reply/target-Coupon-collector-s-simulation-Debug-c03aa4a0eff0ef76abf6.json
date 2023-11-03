@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Coupon_collection.exe"
+			"path" : "Coupon-collector-s-simulation.exe"
 		},
 		{
-			"path" : "Coupon_collection.pdb"
+			"path" : "Coupon-collector-s-simulation.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "Coupon_collection::@6890427a1f51a3e7e1df",
+	"id" : "Coupon-collector-s-simulation::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Coupon_collection",
-	"nameOnDisk" : "Coupon_collection.exe",
+	"name" : "Coupon-collector-s-simulation",
+	"nameOnDisk" : "Coupon-collector-s-simulation.exe",
 	"paths" : 
 	{
 		"build" : ".",

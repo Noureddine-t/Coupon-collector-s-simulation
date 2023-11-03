@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Coupon_collection"
+			"value" : "Coupon-collector-s-simulation"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1252,6 +1252,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Coupon-collector-s-simulation_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug"
+		},
+		{
+			"name" : "Coupon-collector-s-simulation_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Coupon-collector-s-simulation_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation"
 		},
 		{
 			"name" : "Coupon_collection_BINARY_DIR",

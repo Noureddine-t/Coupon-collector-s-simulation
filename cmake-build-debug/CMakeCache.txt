@@ -157,7 +157,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Coupon_collection
+CMAKE_PROJECT_NAME:STATIC=Coupon-collector-s-simulation
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=G:/Programmes/JetBrains/CLion 2023.2.2/bin/mingw/bin/ranlib.exe
@@ -238,6 +238,15 @@ CMAKE_STRIP:FILEPATH=G:/Programmes/JetBrains/CLion 2023.2.2/bin/mingw/bin/strip.
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+Coupon-collector-s-simulation_BINARY_DIR:STATIC=G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug
+
+//Value Computed by CMake
+Coupon-collector-s-simulation_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Coupon-collector-s-simulation_SOURCE_DIR:STATIC=G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation
 
 //Value Computed by CMake
 Coupon_collection_BINARY_DIR:STATIC=G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug

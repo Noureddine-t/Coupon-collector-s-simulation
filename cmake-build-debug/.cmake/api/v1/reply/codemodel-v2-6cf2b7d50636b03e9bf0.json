@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Coupon_collection",
+					"name" : "Coupon-collector-s-simulation",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Coupon_collection::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Coupon_collection-Debug-79946ceb19bee666ca9e.json",
-					"name" : "Coupon_collection",
+					"id" : "Coupon-collector-s-simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coupon-collector-s-simulation-Debug-c03aa4a0eff0ef76abf6.json",
+					"name" : "Coupon-collector-s-simulation",
 					"projectIndex" : 0
 				}
 			]
