@@ -141,7 +141,7 @@ int simulateCollectionWithExchange(int collectionNumber) {
 
             if (!collected[i] && duplicatesVignette == 10) {
                 collected[i] = true;
-                duplicatesVignette = 0;
+                duplicatesVignette -= 10;
                 break;
             }
         }
@@ -179,10 +179,6 @@ int simulateWithMultipleCollections(int collectionNumber, int vignetteNumber) {
             newVignetteTable[i] = rand() % collectionNumber;
             if (!collected[newVignetteTable[i]])
                 collected[newVignetteTable[i]] = true;
-            else
-                duplicatesVignette++;
-
-
         }
 
         //verifier si toutes les vignettes sont collectées
@@ -232,7 +228,7 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
         for (int i = 0; i < collectionNumber; i++) {
             if (!collected[i] && duplicatesVignette >= 10) {
                 collected[i] = true;
-                duplicatesVignette = duplicatesVignette - 10;
+                duplicatesVignette -= 10;
 
                 //std::cout << "vignette after -10:" << duplicatesVignette << std::endl;
                 break;
