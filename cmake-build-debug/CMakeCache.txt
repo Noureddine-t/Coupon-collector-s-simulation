@@ -257,6 +257,15 @@ Coupon_collection_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Coupon_collection_SOURCE_DIR:STATIC=G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation
 
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation
+
 
 ########################
 # INTERNAL cache entries

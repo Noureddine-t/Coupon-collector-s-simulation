@@ -1,0 +1,37 @@
+
+?cpp:S125"Remove the commented out code.(”À—øÿÿÿÿ8ó¶¶çÀ1
+9cpp:S125‘"Remove the commented out code.(õªÈ78ó¶¶çÀ1
+?cpp:S125œ"Remove the commented out code.(îº¢çıÿÿÿÿ8ó¶¶çÀ1
+?cpp:S125¦"Remove the commented out code.(Ü˜Í¾üÿÿÿÿ8ó¶¶çÀ1
+Z	cpp:S3584v"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8ñù¶çÀ1
+V	cpp:S3584¡"9Potential leak of memory pointed to by 'newVignetteTable'(©¢§à8ñù¶çÀ1
+?cpp:S125"Remove the commented out code.(”À—øÿÿÿÿ8¶ç¾çÀ1
+9cpp:S125‘"Remove the commented out code.(õªÈ78·ç¾çÀ1
+?cpp:S125œ"Remove the commented out code.(îº¢çıÿÿÿÿ8·ç¾çÀ1
+?cpp:S125¦"Remove the commented out code.(Ü˜Í¾üÿÿÿÿ8·ç¾çÀ1
+H	cpp:S5827"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8í¶¶çÀ1
+V	cpp:S50251":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8í¶¶çÀ1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8í¶¶çÀ1
+K	cpp:S5020#"/Replace "rand" with the facilities in <random>.(éóÿÈ8‘ù¶çÀ1
+H	cpp:S58277"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8î¶¶çÀ1
+V	cpp:S5025]":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8î¶¶çÀ1
+r	cpp:S50257"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8î¶¶çÀ1
+P	cpp:S5020C"/Replace "rand" with the facilities in <random>.(œšûÿÿÿÿ8“ù¶çÀ1
+H	cpp:S5827c"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ï¶¶çÀ1
+V	cpp:S5025~":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8ï¶¶çÀ1
+r	cpp:S5025c"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8ï¶¶çÀ1
+H	cpp:S5827n"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8ï¶¶çÀ1
+r	cpp:S5025n"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8ï¶¶çÀ1
+P	cpp:S5020p"/Replace "rand" with the facilities in <random>.(×ïÌÇúÿÿÿÿ8”ù¶çÀ1
+I	cpp:S5827„"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ğ¶¶çÀ1
+W	cpp:S5025´":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8ğ¶¶çÀ1
+s	cpp:S5025„"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8ğ¶¶çÀ1
+I	cpp:S5827”"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8ğ¶¶çÀ1
+s	cpp:S5025”"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8ğ¶¶çÀ1
+Q	cpp:S5020–"/Replace "rand" with the facilities in <random>.(×ïÌÇúÿÿÿÿ8–ù¶çÀ1
+Z	cpp:S3584v"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8©ê¾çÀ1
+V	cpp:S3584¡"9Potential leak of memory pointed to by 'newVignetteTable'(©¢§à8©ê¾çÀ1
+?cpp:S125"Remove the commented out code.(”À—øÿÿÿÿ8¶ê¾çÀ1
+9cpp:S125‘"Remove the commented out code.(õªÈ78¶ê¾çÀ1
+?cpp:S125œ"Remove the commented out code.(îº¢çıÿÿÿÿ8¶ê¾çÀ1
+?cpp:S125¦"Remove the commented out code.(Ü˜Í¾üÿÿÿÿ8¶ê¾çÀ1

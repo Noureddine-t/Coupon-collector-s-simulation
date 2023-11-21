@@ -3,4 +3,5 @@ project(Coupon-collector-s-simulation)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Coupon-collector-s-simulation main.cpp)
+add_executable(Coupon-collector-s-simulation main.cpp Functions.h)
+add_executable(Main2 main2.cpp Functions.h)

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Coupon-collector-s-simulation",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Coupon-collector-s-simulation::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Coupon-collector-s-simulation-Debug-c03aa4a0eff0ef76abf6.json",
+					"jsonFile" : "target-Coupon-collector-s-simulation-Debug-d8d711e73cd630698e86.json",
 					"name" : "Coupon-collector-s-simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Main2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Main2-Debug-5b86126392e08cb29d1a.json",
+					"name" : "Main2",
 					"projectIndex" : 0
 				}
 			]
