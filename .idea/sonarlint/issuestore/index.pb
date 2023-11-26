@@ -7,3 +7,14 @@
 	main2.cpp,c\7\c7f6481e1d3f40482a4153d8bc9c68fbd7272583
 >
 CMakeLists.txt,9\a\9a2aa4db38d3115ed60da621e012c0efc0172aae
+:
+
+output.csv,c\f\cf1a8b3838f4e68a5b2291214b769ab55bfdb3f8
+C
+script_r/output.csv,0\d\0dec268f33adf7a20af106c7266c6c76621d5d1f
+9
+	main3.cpp,9\3\93d019cd6a90c30dd9df938fc1048df64814c42a
+g
+7script_r/AverangeWeeksEnFonctionDeNombreA_Collecter.csv,b\7\b7bf7af95525924317a924c790b66680bf792e6b
+n
+>script_r/AverangeWeeksEnFonctionDeNombreA_Collecter_Avec_5.csv,b\3\b35f9933c3e2a1397363f848ba6fa3e186814eeb

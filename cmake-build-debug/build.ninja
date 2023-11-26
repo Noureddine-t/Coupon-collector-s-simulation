@@ -106,6 +106,39 @@ build Main2.exe: CXX_EXECUTABLE_LINKER__Main2_Debug CMakeFiles/Main2.dir/main2.c
   TARGET_IMPLIB = libMain2.dll.a
   TARGET_PDB = Main2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Main3
+
+
+#############################################
+# Order-only phony target for Main3
+
+build cmake_object_order_depends_target_Main3: phony || CMakeFiles/Main3.dir
+
+build CMakeFiles/Main3.dir/main3.cpp.obj: CXX_COMPILER__Main3_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/main3.cpp || cmake_object_order_depends_target_Main3
+  DEP_FILE = CMakeFiles\Main3.dir\main3.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Main3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Main3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Main3
+
+
+#############################################
+# Link the executable Main3.exe
+
+build Main3.exe: CXX_EXECUTABLE_LINKER__Main3_Debug CMakeFiles/Main3.dir/main3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Main3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Main3.exe
+  TARGET_IMPLIB = libMain3.dll.a
+  TARGET_PDB = Main3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build Coupon-collector-s-simulation: phony Coupon-collector-s-simulation.exe
 
 build Main2: phony Main2.exe
 
+build Main3: phony Main3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build Main2: phony Main2.exe
 #############################################
 # Folder: G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug
 
-build all: phony Coupon-collector-s-simulation.exe Main2.exe
+build all: phony Coupon-collector-s-simulation.exe Main2.exe Main3.exe
 
 # =============================================================================
 # Built-in targets

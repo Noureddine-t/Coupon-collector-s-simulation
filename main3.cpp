@@ -8,8 +8,8 @@ int main() {
     int averageWeeks[2];
 
     // Open the CSV file for writing
-    std::ofstream outputFile("AverangeWeeksEnFonctionDeN.csv");
-
+    //std::ofstream outputFile("AverangeWeeksEnFonctionDeNombreA_Collecter.csv");
+    std::ofstream outputFile("AverangeWeeksEnFonctionDeNombreA_Collecter_Avec_5.csv");
     // Check if the file is opened successfully
     if (!outputFile.is_open()) {
         std::cerr << "Error opening output file!" << std::endl;
@@ -17,15 +17,15 @@ int main() {
     }
 
     // Write header to the CSV file
-    outputFile << "N, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
-
+    //outputFile << "NbrTotalDeCollection, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
+    outputFile << "NbrTotalDeCollection, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
     for (int i = 1; i <= N; i++) {
         std::cout << "N=" << i << std::endl;
         averageWeeks[0] = 0;
         averageWeeks[1] = 0;
         for (int j = 0; j < simulations; j++) {
-            averageWeeks[0] += simulateWithMultipleCollections(100, i);
-            averageWeeks[1] += simulateWithMultipleCollectionsWithExchange(100, i);
+            averageWeeks[0] += simulateWithMultipleCollections(i, 5);
+            averageWeeks[1] += simulateWithMultipleCollectionsWithExchange(i, 5);
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;
