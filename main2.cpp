@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
-
-#include "Functions.h"
+#include "Functions.h"  // Assuming Functions.h contains the necessary function declarations
 
 int main() {
     int N = 170;
@@ -20,7 +19,7 @@ int main() {
     // Write header to the CSV file
     outputFile << "N, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
 
-    for (int i = 1; i < N; i++) {
+    for (int i = 1; i <= N; i++) {
         std::cout << "N=" << i << std::endl;
         averageWeeks[0] = 0;
         averageWeeks[1] = 0;
