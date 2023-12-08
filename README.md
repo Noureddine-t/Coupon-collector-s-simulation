@@ -1,6 +1,5 @@
 # Coupon-collector-s-simulation
 
-* DOSSIER "rapport" contient l'étude théorique du problème du collectionneur de vignette et le lien latex
 * DOSSIER "script_r" contient 2 script pour faire une simulation et présentation graphique du problème
 * Lien template Latex du rapport : [Lien overleaf](https://www.overleaf.com/read/cxqhwjrzjnnq#d65cd0)
 
