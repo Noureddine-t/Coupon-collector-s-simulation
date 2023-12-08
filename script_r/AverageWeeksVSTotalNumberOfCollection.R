@@ -1,6 +1,6 @@
 # Read CSV file
-data <- read.csv("_SemainesEnFonctionDeNombreA_Collecte.csv")
-data2 <- read.csv("_SemaineEnFonctionDeNombreA_Collecte_Avec_5.csv")
+data <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\_SemainesEnFonctionDeNombreA_Collecte.csv")
+data2 <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\_SemaineEnFonctionDeNombreA_Collecte_Avec_5.csv")
 # Extract data for plotting
 TotalCollectionNumber <- data$NbrTotalDeCollection
 AverageWeeksWithoutExchange <- data$AverageWeeksWithoutExchange
