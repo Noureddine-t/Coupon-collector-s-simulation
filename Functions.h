@@ -104,9 +104,29 @@ int simulateWithMultipleCollections(int collectionNumber, int vignetteNumber) {
     while (!allCollected) {
         weeks++;
 
-        int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
+        int *newVignetteTable = new int[vignetteNumber]; // si on a plus d'une vignette dans la boite de céréales
         for (int i = 0; i < vignetteNumber; i++) {
-            newVignetteTable[i] = rand() % collectionNumber;
+            int randomVignette;
+            bool isUnique; //Assurer que les vignettes trouvées dans le céréal soient différentes
+
+            do {
+                // Générer un nombre aléatoire entre 0 et collectionNumber - 1
+                randomVignette = rand() % collectionNumber;
+
+                // Vérifier si le nombre généré est déjà présent dans le tableau
+                isUnique = true;
+                for (int j = 0; j < i; j++) {
+                    if (newVignetteTable[j] == randomVignette) {
+                        isUnique = false;
+                        break;
+                    }
+                }
+            } while (!isUnique);
+
+            // Assigner le nombre aléatoire unique au tableau
+            newVignetteTable[i] = randomVignette;
+
+            // Marquer la vignette comme collectée
             if (!collected[newVignetteTable[i]])
                 collected[newVignetteTable[i]] = true;
         }
@@ -141,7 +161,27 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
 
         int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
         for (int i = 0; i < vignetteNumber; i++) {
-            newVignetteTable[i] = rand() % collectionNumber;
+            int randomVignette;
+            bool isUnique; //Assurer que les vignettes trouvées dans le céréal soient différentes
+
+            do {
+                // Générer un nombre aléatoire entre 0 et collectionNumber - 1
+                randomVignette = rand() % collectionNumber;
+
+                // Vérifier si le nombre généré est déjà présent dans le tableau
+                isUnique = true;
+                for (int j = 0; j < i; j++) {
+                    if (newVignetteTable[j] == randomVignette) {
+                        isUnique = false;
+                        break;
+                    }
+                }
+            } while (!isUnique);
+
+            // Assigner le nombre aléatoire unique au tableau
+            newVignetteTable[i] = randomVignette;
+
+            // Marquer la vignette comme collectée
             if (!collected[newVignetteTable[i]]) {
                 collected[newVignetteTable[i]] = true;
                 notCollectedCounter--;

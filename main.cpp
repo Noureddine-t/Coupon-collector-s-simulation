@@ -4,24 +4,16 @@ int main() {
     int collectionNumber = 100; //valeur par defaut pour nombre total de collection
     int simulations = 1000;  // Nombre de simulations à exécuter pour avoir une valeur moyenne plus exacte
     int vignetteNumber = 5; //nombre de vignette dans la boite de céréales pour la 3eme fonction
-    while (true) {
+    while (collectionNumber != 0 || simulations != 0 || vignetteNumber != 0) {
         //demander nombre de collection
         std::cout << "Entrez nombre de vignettes de votre collection (0 pour arreter programme)  " << std::endl;
         std::cout << "Ici >  ";
         std::cin >> collectionNumber;
 
-        //condition d'arret
-        if (collectionNumber == 0)
-            break;
-
         //demander nombre de simulations
         std::cout << "Entrez nombre de simulations (0 pour arreter programme)  " << std::endl;
         std::cout << "Ici >  ";
         std::cin >> simulations;
-
-        //condition d'arret
-        if (simulations == 0)
-            break;
 
         //demander nombre de vignette dans la boite de céréales pour la fonction 3
         std::cout << "Entrez nombre de vignettes (0 pour arreter programme)  " << std::endl;
@@ -29,9 +21,6 @@ int main() {
         std::cin >> vignetteNumber;
         std::cout << std::endl;
 
-        //condition d'arret
-        if (vignetteNumber == 0)
-            break;
 
         double averageWeeks[] = {0, 0, 0, 0};//semaines necessaires avec echange et sans echange
 

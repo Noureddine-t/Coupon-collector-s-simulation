@@ -7,17 +7,20 @@ H	cpp:S58276"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8üŒ·ÖÅ1
 V	cpp:S5025Z":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8şŒ·ÖÅ1
 r	cpp:S50256"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8üŒ·ÖÅ1
 P	cpp:S5020B"/Replace "rand" with the facilities in <random>.(œšûÿÿÿÿ8Ğ€ËÚÅ1
+hcpp:S134v"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8ù¼¨şÅ1
 H	cpp:S5827`"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8şŒ·ÖÅ1
-V	cpp:S5025{":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8ÿŒ·ÖÅ1
+W	cpp:S5025":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8ÿŒ·ÖÅ1
 r	cpp:S5025`"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8şŒ·ÖÅ1
 H	cpp:S5827k"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8şŒ·ÖÅ1
 r	cpp:S5025k"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8şŒ·ÖÅ1
-P	cpp:S5020m"/Replace "rand" with the facilities in <random>.(×ïÌÇúÿÿÿÿ8ºŸÌÚÅ1
-I	cpp:S5827"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ÿŒ·ÖÅ1
-W	cpp:S5025¥":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8ÆõÙÚÅ1
-s	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8ÿŒ·ÖÅ1
-I	cpp:S5827"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8ÿŒ·ÖÅ1
-s	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8€·ÖÅ1
-Q	cpp:S5020"/Replace "rand" with the facilities in <random>.(×ïÌÇúÿÿÿÿ8×ÙÒÚÅ1
-Z	cpp:S3584s"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8á·ÖÅ1
-[	cpp:S3584"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8åòâÚÅ1
+P	cpp:S5020r"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8ºŸÌÚÅ1
+v	cpp:S3776“"TRefactor this function to reduce its Cognitive Complexity from 27 to the 25 allowed.(ÖÍÒ§ıÿÿÿÿ8ş³“ÿÅ1
+icpp:S134­"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8¬‹˜ÿÅ1
+I	cpp:S5827•"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ÿŒ·ÖÅ1
+W	cpp:S5025Í":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8­‹˜ÿÅ1
+s	cpp:S5025•"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8ÿŒ·ÖÅ1
+I	cpp:S5827¢"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8­‹˜ÿÅ1
+s	cpp:S5025¢"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8®‹˜ÿÅ1
+Q	cpp:S5020©"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8®‹˜ÿÅ1
+[	cpp:S3584‡"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8åòâÚÅ1
+[	cpp:S3584Å"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8’Œ˜ÿÅ1
