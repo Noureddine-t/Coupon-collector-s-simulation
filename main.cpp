@@ -57,7 +57,8 @@ int main() {
                   << collectionNumber << " vignettes avec " << vignetteNumber << " dans la boite de cereales"
                   << std::endl;
         std::cout << ">> Il faut en moyenne " << averageWeeks[3] << " semaines pour completer la collection de "
-                  << collectionNumber << " vignettes avec echange et " << vignetteNumber << " dans la boite de cereales"
+                  << collectionNumber << " vignettes avec echange et " << vignetteNumber
+                  << " vignette(s) dans la boite de cereales"
                   << std::endl << std::endl;
         std::cout << "-Valeur theorique :" << std::endl;
         std::cout << ">> Il faut en moyenne " << theoricalValueUsingHarmonicSerie(collectionNumber)

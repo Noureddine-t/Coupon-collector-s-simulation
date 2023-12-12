@@ -33,13 +33,12 @@ int simulateCollection(int collectionNumber) {
     while (!allCollected) {
         weeks++;
         int newVignette = rand() % collectionNumber; //choisir un valeur alétoire qui represente une vignette
-
         if (!collected[newVignette])
             collected[newVignette] = true;
 
         //verifier si tout les vignettes sont collectées pour finir, si la nouvelle vignette est déja présente je verifie pas
         allCollected = true;
-        for (int i = 0; i < collectionNumber && !collected[newVignette]; i++) {
+        for (int i = 0; i < collectionNumber; i++) {
             if (!collected[i]) {
                 allCollected = false;
                 break;
@@ -60,30 +59,28 @@ int simulateCollectionWithExchange(int collectionNumber) {
     int weeks = 0;
     int duplicatesVignette = 0;
     bool allCollected = false;
-
+    int notCollectedCounter = collectionNumber;
     while (!allCollected) {
         weeks++;
 
         int newVignette = rand() % collectionNumber;
-        if (!collected[newVignette])
+        if (!collected[newVignette]) {
             collected[newVignette] = true;
-        else
+            //compter vignettes restantes
+            notCollectedCounter--;
+        } else
             duplicatesVignette++;
 
-        //echanger 10 vignettes contre une
-        for (int i = 0; i < collectionNumber; i++) {
 
-            if (!collected[i] && duplicatesVignette == 10) {
-                collected[i] = true;
-                duplicatesVignette -= 10;
-                break;
-            }
+        //faire echange a la fin (si nombre de vignettes manquantes = doublons/10 on echange) et mettre fin
+        if (notCollectedCounter == duplicatesVignette / 10) {
+            break;
         }
 
 
         //verifier si tout les vignettes collecter pour finir
         allCollected = true;
-        for (int i = 0; i < collectionNumber && !collected[newVignette]; i++) {
+        for (int i = 0; i < collectionNumber; i++) {
             if (!collected[i]) {
                 allCollected = false;
                 break;
@@ -137,35 +134,23 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
     int weeks = 0;
     int duplicatesVignette = 0;
     bool allCollected = false;
+    int notCollectedCounter = collectionNumber;
 
     while (!allCollected) {
         weeks++;
-        //std::cout << "semaine:" << weeks << std::endl;
-
-        //for (int i = 0; i < collectionNumber; i++)
-        // std::cout << "tableau collected:" << collected[i] << std::endl;
 
         int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
         for (int i = 0; i < vignetteNumber; i++) {
             newVignetteTable[i] = rand() % collectionNumber;
-            if (!collected[newVignetteTable[i]])
+            if (!collected[newVignetteTable[i]]) {
                 collected[newVignetteTable[i]] = true;
-            else
+                notCollectedCounter--;
+            } else
                 duplicatesVignette++;
 
-            //std::cout << "vignette dupliquee :" << duplicatesVignette << std::endl;
-
         }
-
-        //echanger 10 vignettes contre une
-        for (int i = 0; i < collectionNumber; i++) {
-            if (!collected[i] && duplicatesVignette >= 10) {
-                collected[i] = true;
-                duplicatesVignette -= 10;
-
-                //std::cout << "vignette after -10:" << duplicatesVignette << std::endl;
-                break;
-            }
+        if (notCollectedCounter == duplicatesVignette / 10) {
+            break;
         }
 
         //verifier si toutes les vignettes sont collectées
