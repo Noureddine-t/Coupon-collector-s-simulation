@@ -1,6 +1,6 @@
 # Read CSV file
 data <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\_SemainesEnFonctionDeNombreA_Collecte.csv")
-data2 <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\_SemaineEnFonctionDeNombreA_Collecte_Avec_5.csv")
+data2 <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\_SemaineEnFonctionDeNombreA_Collecte_Avec_2.csv")
 # Extract data for plotting
 TotalCollectionNumber <- data$NbrTotalDeCollection
 AverageWeeksWithoutExchange <- data$AverageWeeksWithoutExchange
@@ -23,12 +23,12 @@ lines(TotalCollectionNumber, theoreticalValues, col = 'green', lwd = 2)
 
 #tracer y=0 et x=0
 y_zero <- rep(0, length(TotalCollectionNumber))
-lines(NbrTotalDeCollection, y_zero, col = 'black', lwd = 2)
+lines(TotalCollectionNumber, y_zero, col = 'black', lwd = 2)
 x_zero <- rep(0, length(AverageWeeksWithoutExchange2))
 lines(x_zero, AverageWeeksWithoutExchange, col = 'black', lwd = 2)
 
 # Add legend
-legend('topleft', legend = c('Without Exchange', 'With Exchange', 'Theoretical Value', '5 Without Exchange', '5 With Exchange'), col = c('blue', 'red', 'green', 'purple', 'orange'), lwd = 2)
+legend('top', legend = c('Without Exchange', 'With Exchange', 'Theoretical Value', '2 Without Exchange', '2 With Exchange'), col = c('blue', 'red', 'green', 'purple', 'orange'), lwd = 2)
 
 
 # Display the plot

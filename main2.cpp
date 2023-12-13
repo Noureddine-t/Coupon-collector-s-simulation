@@ -2,12 +2,12 @@
 #include "Functions.h"
 
 int main() {
-    int N = 500;
+    int N = 300;
     int simulations = 1000;
     int averageWeeks[2];
 
     // Open the CSV file for writing
-    std::ofstream outputFile("AverangeWeeksEnFonctionDeN.csv");
+    std::ofstream outputFile("AverangeWeeksVSVignetteNumber.csv");
 
     // Check if the file is opened successfully
     if (!outputFile.is_open()) {
@@ -23,8 +23,8 @@ int main() {
         averageWeeks[0] = 0;
         averageWeeks[1] = 0;
         for (int j = 0; j < simulations; j++) {
-            averageWeeks[0] += simulateWithMultipleCollections(100, i);
-            averageWeeks[1] += simulateWithMultipleCollectionsWithExchange(100, i);
+            averageWeeks[0] += simulateWithMultipleCollections(300, i);
+            averageWeeks[1] += simulateWithMultipleCollectionsWithExchange(300, i);
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;

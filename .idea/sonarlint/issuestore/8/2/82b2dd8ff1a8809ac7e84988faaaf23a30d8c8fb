@@ -1,4 +1,8 @@
 
+N	cpp:S3584j"2Potential leak of memory pointed to by 'collected'(È¸å8³ê«‘Æ1
+[	cpp:S3584Œ"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8«ğŠ‘Æ1
+O	cpp:S3584¥"2Potential leak of memory pointed to by 'collected'(È¸å8à¯±‘Æ1
+[	cpp:S3584Î"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8³ê«‘Æ1
 H	cpp:S5827"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8í¶¶çÀ1
 V	cpp:S50250":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8üŒ·ÖÅ1
 r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8í¶¶çÀ1
@@ -22,7 +26,7 @@ s	cpp:S5025š"QReplace the use of "new" with an operation that automatically m
 I	cpp:S5827«"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8şŒ·ÖÅ1
 s	cpp:S5025«"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8şŒ·ÖÅ1
 Q	cpp:S5020²"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8ºŸÌÚÅ1
-N	cpp:S3584j"2Potential leak of memory pointed to by 'collected'(È¸å8³ê«‘Æ1
-[	cpp:S3584Œ"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8«ğŠ‘Æ1
-O	cpp:S3584¥"2Potential leak of memory pointed to by 'collected'(È¸å8à¯±‘Æ1
-[	cpp:S3584Î"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8³ê«‘Æ1
+N	cpp:S3584j"2Potential leak of memory pointed to by 'collected'(È¸å8…äû‘Æ1
+[	cpp:S3584Œ"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8…äû‘Æ1
+O	cpp:S3584¥"2Potential leak of memory pointed to by 'collected'(È¸å8…äû‘Æ1
+[	cpp:S3584Î"9Potential leak of memory pointed to by 'newVignetteTable'(¤ü¨Âùÿÿÿÿ8…äû‘Æ1
