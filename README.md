@@ -6,6 +6,6 @@
 ## Autre
 
 * main1 : Pour faire simulation
-* main2 : Permet de creer fichier csv (AverangeWeeksEnFonctionDeN.csv) pour tracer courbe sur Rstudio
-* main3 : Permet de creer fichier csv (AverageWeeksVSTotalNumberOfCollection.csv) pour tracer courbe sur Rstudio 
-
+* main2 : Permet de creer fichier csv (AverangeWeeksVSVignetteNumber) pour tracer courbe sur Rstudio
+* main3 : Permet de creer fichier csv (AverageWeeksVSTotalNumberOfCollection) pour tracer courbe sur Rstudio 
+* main4 : Permet de creer fichier csv (AverageWeeksVSTotalNumberOfCollection_FindingExchangeValue) pour tracer courbe sur Rstudio  
