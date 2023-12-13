@@ -11,3 +11,7 @@
 	main3.cpp,9\3\93d019cd6a90c30dd9df938fc1048df64814c42a
 b
 2script_r/_SemainesEnFonctionDeNombreA_Collecte.csv,6\6\66f13efd6933702d27b9963857b19854ba19d7a4
+9
+	main4.cpp,9\1\91112b18d04025f75b36586209c34b41cc401897
+‡
+Wscript_r/test/_SemaineEnFonctionDeNombreA_Collecte_Avec_2_Determiner_taux_d_echange.csv,7\0\70c6b7090474f61737de91fcc8042942b9c476a1

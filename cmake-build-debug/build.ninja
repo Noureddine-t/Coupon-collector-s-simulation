@@ -55,6 +55,12 @@ build CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj: CXX_COMPILER__C
   OBJECT_DIR = CMakeFiles\Coupon-collector-s-simulation.dir
   OBJECT_FILE_DIR = CMakeFiles\Coupon-collector-s-simulation.dir
 
+build CMakeFiles/Coupon-collector-s-simulation.dir/main4.cpp.obj: CXX_COMPILER__Coupon-collector-s-simulation_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/main4.cpp || cmake_object_order_depends_target_Coupon-collector-s-simulation
+  DEP_FILE = CMakeFiles\Coupon-collector-s-simulation.dir\main4.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Coupon-collector-s-simulation.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coupon-collector-s-simulation.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Coupon-collector-s-simulation
@@ -63,7 +69,7 @@ build CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj: CXX_COMPILER__C
 #############################################
 # Link the executable Coupon-collector-s-simulation.exe
 
-build Coupon-collector-s-simulation.exe: CXX_EXECUTABLE_LINKER__Coupon-collector-s-simulation_Debug CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj
+build Coupon-collector-s-simulation.exe: CXX_EXECUTABLE_LINKER__Coupon-collector-s-simulation_Debug CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj CMakeFiles/Coupon-collector-s-simulation.dir/main4.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coupon-collector-s-simulation.dir
@@ -139,6 +145,39 @@ build Main3.exe: CXX_EXECUTABLE_LINKER__Main3_Debug CMakeFiles/Main3.dir/main3.c
   TARGET_IMPLIB = libMain3.dll.a
   TARGET_PDB = Main3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Main4
+
+
+#############################################
+# Order-only phony target for Main4
+
+build cmake_object_order_depends_target_Main4: phony || CMakeFiles/Main4.dir
+
+build CMakeFiles/Main4.dir/main4.cpp.obj: CXX_COMPILER__Main4_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/main4.cpp || cmake_object_order_depends_target_Main4
+  DEP_FILE = CMakeFiles\Main4.dir\main4.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Main4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Main4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Main4
+
+
+#############################################
+# Link the executable Main4.exe
+
+build Main4.exe: CXX_EXECUTABLE_LINKER__Main4_Debug CMakeFiles/Main4.dir/main4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Main4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Main4.exe
+  TARGET_IMPLIB = libMain4.dll.a
+  TARGET_PDB = Main4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +210,8 @@ build Main2: phony Main2.exe
 
 build Main3: phony Main3.exe
 
+build Main4: phony Main4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +220,7 @@ build Main3: phony Main3.exe
 #############################################
 # Folder: G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug
 
-build all: phony Coupon-collector-s-simulation.exe Main2.exe Main3.exe
+build all: phony Coupon-collector-s-simulation.exe Main2.exe Main3.exe Main4.exe
 
 # =============================================================================
 # Built-in targets
