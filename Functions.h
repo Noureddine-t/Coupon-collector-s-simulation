@@ -101,6 +101,11 @@ int simulateWithMultipleCollections(int collectionNumber, int vignetteNumber) {
     int weeks = 0;
     bool allCollected = false;
 
+    //exception si collectionNumber<vignetteNumber alors weeks = 1
+    if (collectionNumber < vignetteNumber) {
+        return 1;
+    }
+
     while (!allCollected) {
         weeks++;
 
@@ -156,6 +161,10 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
     bool allCollected = false;
     int notCollectedCounter = collectionNumber;
 
+    if (collectionNumber < vignetteNumber) {
+        return 1;
+    }
+    
     while (!allCollected) {
         weeks++;
 

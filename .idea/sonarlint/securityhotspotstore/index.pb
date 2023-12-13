@@ -11,3 +11,5 @@
 	main3.cpp,9\3\93d019cd6a90c30dd9df938fc1048df64814c42a
 n
 >script_r/AverangeWeeksEnFonctionDeNombreA_Collecter_Avec_5.csv,b\3\b35f9933c3e2a1397363f848ba6fa3e186814eeb
+h
+8script_r/_SemaineEnFonctionDeNombreA_Collecte_Avec_5.csv,b\3\b32f162aace530d95a73565a5ca8b85ea73932d0

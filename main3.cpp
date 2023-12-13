@@ -2,7 +2,7 @@
 #include "Functions.h"
 
 int main() {
-    int N = 500;
+    int N = 1000;
     int simulations = 1000;
     int averageWeeks[2];
 
