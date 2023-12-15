@@ -78,7 +78,7 @@ int simulateCollectionWithExchange(int collectionNumber) {
 
 
         //faire echange a la fin (si nombre de vignettes manquantes = doublons/10 on echange) et mettre fin
-        if (notCollectedCounter == duplicatesVignette / 10) {
+        if (notCollectedCounter <= duplicatesVignette / 10) {
             break;
         }
 
@@ -110,11 +110,11 @@ int simulateWithMultipleCollections(int collectionNumber, int vignetteNumber) {
     if (collectionNumber < vignetteNumber) {
         return 1;
     }
+    int *newVignetteTable = new int[vignetteNumber]; // si on a plus d'une vignette dans la boite de céréales
 
     while (!allCollected) {
         weeks++;
 
-        int *newVignetteTable = new int[vignetteNumber]; // si on a plus d'une vignette dans la boite de céréales
         for (int i = 0; i < vignetteNumber; i++) {
             int randomVignette;
             bool isUnique; //Assurer que les vignettes trouvées dans le céréal soient différentes
@@ -150,6 +150,7 @@ int simulateWithMultipleCollections(int collectionNumber, int vignetteNumber) {
             }
         }
     }
+    delete[] newVignetteTable;
     delete[] collected; // Libération de la mémoire allouée dynamiquement
     return weeks;
 }
@@ -169,11 +170,11 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
     if (collectionNumber < vignetteNumber) {
         return 1;
     }
+    int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
 
     while (!allCollected) {
         weeks++;
 
-        int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
         for (int i = 0; i < vignetteNumber; i++) {
             int randomVignette;
             bool isUnique; //Assurer que les vignettes trouvées dans le céréal soient différentes
@@ -203,7 +204,7 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
                 duplicatesVignette++;
 
         }
-        if (notCollectedCounter == duplicatesVignette / 10) {
+        if (notCollectedCounter <= duplicatesVignette / 10) {
             break;
         }
 
@@ -216,6 +217,7 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
             }
         }
     }
+    delete[] newVignetteTable;
     delete[] collected; // Libération de la mémoire allouée dynamiquement
 
     return weeks;
@@ -291,11 +293,11 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
     if (collectionNumber < vignetteNumber) {
         return 1;
     }
+    int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
 
     while (!allCollected) {
         weeks++;
 
-        int *newVignetteTable = new int[vignetteNumber]; //si on a plus d'une vignette dans la boite de céréales
         for (int i = 0; i < vignetteNumber; i++) {
             int randomVignette;
             bool isUnique; //Assurer que les vignettes trouvées dans le céréal soient différentes
@@ -338,6 +340,7 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
             }
         }
     }
+    delete[] newVignetteTable;
     delete[] collected; // Libération de la mémoire allouée dynamiquement
 
     return weeks;
