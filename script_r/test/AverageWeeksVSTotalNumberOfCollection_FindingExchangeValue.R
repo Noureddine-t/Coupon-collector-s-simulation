@@ -13,7 +13,7 @@ lines(TotalCollectionNumber,AverageWeeksWithExchange , col = 'red', lwd = 2)
 #tracer y=0 et x=0
 y_zero <- rep(0, length(TotalCollectionNumber))
 lines(TotalCollectionNumber, y_zero, col = 'black', lwd = 2)
-x_zero <- rep(0, length(AverageWeeksWithoutExchange2))
+x_zero <- rep(0, length(AverageWeeksWithoutExchange))
 lines(x_zero, AverageWeeksWithoutExchange, col = 'black', lwd = 2)
 
 # Add legend
