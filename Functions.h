@@ -8,21 +8,21 @@
 #include <iostream>
 #include <cmath>
 
-int simulateCollection(int);
+int simulateCollection(int collectionNumber);
 
-int simulateCollectionWithExchange(int);
+int simulateCollectionWithExchange(int collectionNumber); //prix d echange = 10
 
-int simulateWithMultipleCollections(int, int);
+int simulateWithMultipleCollections(int collectionNumber, int vignetteNumber);
 
-int simulateWithMultipleCollectionsWithExchange(int, int);
+int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignetteNumber); //prix d echange = 10
 
-double theoricalValueUsingHarmonicSerie(int);
+double theoricalValueUsingHarmonicSerie(int collectionNumber);
 
-double theoricalValueUsingAsymptoticDevelopment(int);
+double theoricalValueUsingAsymptoticDevelopment(int collectionNumber);
 
-int simulateCollectionWithExchange(int, int);
+int simulateCollectionWithExchange(int collectionNumber, int Exchange);
 
-int simulateWithMultipleCollectionsWithExchange(int, int, int);
+int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignetteNumber, int Exchange);
 
 
 int simulateCollection(int collectionNumber) {

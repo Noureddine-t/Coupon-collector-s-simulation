@@ -5,10 +5,10 @@
 #include "Functions.h"
 
 int main() {
-    int N = 1000;
+    int N = 500;
     int simulations = 1000;
     int averageWeeks[2];
-
+    // int equal = 0;
     // Open the CSV file for writing
     std::ofstream outputFile("_SemaineEnFonctionDeNombreA_Collecte_Avec_2_Determiner_taux_d_echange.csv");
     // Check if the file is opened successfully
@@ -25,7 +25,7 @@ int main() {
         averageWeeks[1] = 0;
         for (int j = 0; j < simulations; j++) {
             averageWeeks[0] += simulateWithMultipleCollections(i, 2);//vignetteNumber=1 ou 2
-            averageWeeks[1] += simulateCollectionWithExchange(i, 60); //vignetteNumber=1 ou 2
+            averageWeeks[1] += simulateCollectionWithExchange(i, 60);
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;

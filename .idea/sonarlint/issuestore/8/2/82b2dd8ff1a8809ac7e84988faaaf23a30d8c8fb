@@ -1,44 +1,42 @@
 
-N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8³ê«‘Æ1
-O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8ô‘¾ûÆ1
-H	cpp:S5827"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8í¶¶çÀ1
-V	cpp:S50255":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8üŒ·ÖÅ1
-r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8í¶¶çÀ1
-K	cpp:S5020("/Replace "rand" with the facilities in <random>.(éóÿÈ8€·ÖÅ1
-H	cpp:S5827;"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8üŒ·ÖÅ1
-V	cpp:S5025_":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8şŒ·ÖÅ1
-r	cpp:S5025;"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8üŒ·ÖÅ1
-P	cpp:S5020G"/Replace "rand" with the facilities in <random>.(œšûÿÿÿÿ8Ğ€ËÚÅ1
-icpp:S134€"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8Øª«‘Æ1
-H	cpp:S5827e"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8şŒ·ÖÅ1
-H	cpp:S5827q"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8øìµûÆ1
-\	cpp:S5025™":Rewrite the code so that you no longer need this "delete".(Ú¡”•øÿÿÿÿ8ÿŒ·ÖÅ1
-W	cpp:S5025š":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8øìµûÆ1
-r	cpp:S5025e"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8şŒ·ÖÅ1
-r	cpp:S5025q"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8®‹˜ÿÅ1
-P	cpp:S5020|"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8®‹˜ÿÅ1
-v	cpp:S3776"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(ÖÍÒ§ıÿÿÿÿ8ş³“ÿÅ1
-icpp:S134¼"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8øìµûÆ1
-I	cpp:S5827 "'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ÿŒ·ÖÅ1
-I	cpp:S5827­"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8‹îÅûÆ1
-\	cpp:S5025Ü":Rewrite the code so that you no longer need this "delete".(Ú¡”•øÿÿÿÿ8ûìµûÆ1
-W	cpp:S5025İ":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8üìµûÆ1
-s	cpp:S5025 "QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8ùìµûÆ1
-s	cpp:S5025­"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8üìµûÆ1
-Q	cpp:S5020¸"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8ùìµûÆ1
-I	cpp:S5827ñ"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8úìµûÆ1
-W	cpp:S5025•":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8Â¹ÅûÆ1
-s	cpp:S5025ñ"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8Â¾ûÆ1
-Q	cpp:S5020ı"/Replace "rand" with the facilities in <random>.(œšûÿÿÿÿ8ûìµûÆ1
-q	cpp:S3776™"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(ã”ï8ûìµûÆ1
-icpp:S134·"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8üìµûÆ1
-I	cpp:S5827›"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8üìµûÆ1
-I	cpp:S5827¨"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8 „ÌûÆ1
-\	cpp:S5025×":Rewrite the code so that you no longer need this "delete".(Ú¡”•øÿÿÿÿ8—ÀÆûÆ1
-W	cpp:S5025Ø":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8áùÌûÆ1
-s	cpp:S5025›"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8ŒîÅûÆ1
-s	cpp:S5025¨"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8¡„ÌûÆ1
-Q	cpp:S5020³"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8ıìµûÆ1
-N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8ıúÌûÆ1
-O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8¢³Ï–Ç1
-O	cpp:S3584¦"2Potential leak of memory pointed to by 'collected'(È¸å8¢³Ï–Ç1
+H	cpp:S5827"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8æÅøÃÈ1
+V	cpp:S50255":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8øìµûÆ1
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8çÅøÃÈ1
+K	cpp:S5020("/Replace "rand" with the facilities in <random>.(éóÿÈ8çÅøÃÈ1
+H	cpp:S5827;"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8çÅøÃÈ1
+V	cpp:S5025_":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8üìµûÆ1
+r	cpp:S5025;"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8èÅøÃÈ1
+P	cpp:S5020G"/Replace "rand" with the facilities in <random>.(œšûÿÿÿÿ8èÅøÃÈ1
+icpp:S134€"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8éÅøÃÈ1
+H	cpp:S5827e"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8éÅøÃÈ1
+H	cpp:S5827q"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8êÅøÃÈ1
+\	cpp:S5025™":Rewrite the code so that you no longer need this "delete".(Ú¡”•øÿÿÿÿ8áùÌûÆ1
+W	cpp:S5025š":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8êÅøÃÈ1
+r	cpp:S5025e"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8êÅøÃÈ1
+r	cpp:S5025q"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8êÅøÃÈ1
+P	cpp:S5020|"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8ëÅøÃÈ1
+v	cpp:S3776"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(ÖÍÒ§ıÿÿÿÿ8ìÅøÃÈ1
+icpp:S134¼"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8ìÅøÃÈ1
+I	cpp:S5827 "'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ìÅøÃÈ1
+I	cpp:S5827­"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8íÅøÃÈ1
+\	cpp:S5025Ü":Rewrite the code so that you no longer need this "delete".(Ú¡”•øÿÿÿÿ8íÅøÃÈ1
+W	cpp:S5025İ":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8íÅøÃÈ1
+s	cpp:S5025 "QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8íÅøÃÈ1
+s	cpp:S5025­"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8íÅøÃÈ1
+Q	cpp:S5020¸"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8ïÅøÃÈ1
+I	cpp:S5827ñ"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8ñÅøÃÈ1
+W	cpp:S5025•":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8ñÅøÃÈ1
+s	cpp:S5025ñ"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8òÅøÃÈ1
+Q	cpp:S5020ı"/Replace "rand" with the facilities in <random>.(œšûÿÿÿÿ8òÅøÃÈ1
+q	cpp:S3776™"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(ã”ï8óÅøÃÈ1
+icpp:S134·"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Û†²Ğ8óÅøÃÈ1
+I	cpp:S5827›"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8óÅøÃÈ1
+I	cpp:S5827¨"'Replace the redundant type with "auto".(£“Óÿÿÿÿÿ8óÅøÃÈ1
+\	cpp:S5025×":Rewrite the code so that you no longer need this "delete".(Ú¡”•øÿÿÿÿ8óÅøÃÈ1
+W	cpp:S5025Ø":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8óÅøÃÈ1
+s	cpp:S5025›"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8óÅøÃÈ1
+s	cpp:S5025¨"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8õÅøÃÈ1
+Q	cpp:S5020³"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8öÅøÃÈ1
+N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8¢ÇøÃÈ1
+O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8£ÇøÃÈ1
+O	cpp:S3584¦"2Potential leak of memory pointed to by 'collected'(È¸å8£ÇøÃÈ1

@@ -2,5 +2,6 @@ G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collec
 G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug/CMakeFiles/Main2.dir
 G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug/CMakeFiles/Main3.dir
 G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug/CMakeFiles/Main4.dir
+G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug/CMakeFiles/Main5.dir
 G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

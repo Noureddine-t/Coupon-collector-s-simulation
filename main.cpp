@@ -1,9 +1,9 @@
 #include "Functions.h"
 
 int main() {
-    int collectionNumber = 100; //valeur par defaut pour nombre total de collection
+    int collectionNumber = 500; //valeur par defaut pour nombre total de collection
     int simulations = 1000;  // Nombre de simulations à exécuter pour avoir une valeur moyenne plus exacte
-    int vignetteNumber = 5; //nombre de vignette dans la boite de céréales pour la 3eme fonction
+    int vignetteNumber = 2; //nombre de vignette dans la boite de céréales pour la 3eme fonction
     while (collectionNumber != 0 || simulations != 0 || vignetteNumber != 0) {
         //demander nombre de collection
         std::cout << "Entrez nombre de vignettes de votre collection (0 pour arreter programme)  " << std::endl;
@@ -22,7 +22,7 @@ int main() {
         std::cout << std::endl;
 
 
-        double averageWeeks[] = {0, 0, 0, 0};//semaines necessaires avec echange et sans echange
+        double averageWeeks[] = {0, 0, 0, 0, 0};//semaines necessaires avec echange et sans echange
 
         //calcule moyenne de semaines
         for (int i = 0; i < simulations; i++) {
@@ -30,11 +30,14 @@ int main() {
             averageWeeks[1] += simulateCollectionWithExchange(collectionNumber);
             averageWeeks[2] += simulateWithMultipleCollections(collectionNumber, vignetteNumber);
             averageWeeks[3] += simulateWithMultipleCollectionsWithExchange(collectionNumber, vignetteNumber);
+            averageWeeks[4] += simulateWithMultipleCollectionsWithExchange(collectionNumber, vignetteNumber, 10);
+
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;
         averageWeeks[2] /= simulations;
         averageWeeks[3] /= simulations;
+        averageWeeks[4] /= simulations;
 
         //Affichage
         std::cout << "-Simulation :" << std::endl;
@@ -46,6 +49,10 @@ int main() {
                   << collectionNumber << " vignettes avec " << vignetteNumber << " dans la boite de cereales"
                   << std::endl;
         std::cout << ">> Il faut en moyenne " << averageWeeks[3] << " semaines pour completer la collection de "
+                  << collectionNumber << " vignettes avec echange et " << vignetteNumber
+                  << " vignette(s) dans la boite de cereales"
+                  << std::endl << std::endl;
+        std::cout << ">>THIS Il faut en moyenne " << averageWeeks[4] << " semaines pour completer la collection de "
                   << collectionNumber << " vignettes avec echange et " << vignetteNumber
                   << " vignette(s) dans la boite de cereales"
                   << std::endl << std::endl;
