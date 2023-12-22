@@ -7,7 +7,7 @@
 
 int main() {
     int N = 500;
-    int simulations = 1000;
+    int simulations = 5000;
     int averageWeeks[5];
 
     // Open the CSV file for writing

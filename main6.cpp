@@ -6,7 +6,7 @@
 
 int main() {
     int N = 500;
-    int simulations = 1000;
+    int simulations = 5000;
     int averageWeeks[2];
     // int equal = 0;
     // Open the CSV file for writing
@@ -31,7 +31,7 @@ int main() {
             }
             averageWeeks[0] /= simulations;
             averageWeeks[1] /= simulations;
-            if (averageWeeks[0] > averageWeeks[1]) {
+            if ((averageWeeks[0] == averageWeeks[1] && i > 1) || averageWeeks[0] > averageWeeks[1]) {
                 // Write data to the CSV file
                 outputFile << k << "," << i << std::endl;
 

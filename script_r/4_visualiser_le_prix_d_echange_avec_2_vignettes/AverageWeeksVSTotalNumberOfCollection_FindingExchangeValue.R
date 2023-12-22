@@ -1,9 +1,14 @@
 # install.packages("plotly")
 
 library(plotly)
+# Obtenez le chemin du répertoire du script R
+script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
+
+# Changez le répertoire de travail
+setwd(script_directory)
 
 # Lire le fichier CSV
-data <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\4_visualiser_le_prix_d_echange_avec_2_vignettes\\_SemaineEnFonctionDeNombreA_Collecte_Avec_2_Determiner_taux_d_echange.csv")
+data <- read.csv("_SemaineEnFonctionDeNombreA_Collecte_Avec_2_Determiner_taux_d_echange.csv")
 AverageWeeksWithExchange<-data$AverageWeeksWithExchange
 AverageWeeksWithoutExchange<-data$AverageWeeksWithoutExchange
 TotalCollectionNumber<-data$NbrTotalDeCollection

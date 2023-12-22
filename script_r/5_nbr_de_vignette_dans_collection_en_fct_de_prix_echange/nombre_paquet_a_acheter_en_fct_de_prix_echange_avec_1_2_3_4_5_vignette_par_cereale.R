@@ -1,7 +1,13 @@
 library(plotly)
 
+# Obtenez le chemin du répertoire du script R
+script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
+
+# Changez le répertoire de travail
+setwd(script_directory)
+
 # Les données fournies
-data <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\5_nbr_de_vignette_dans_collection_en_fct_de_prix_echange\\nombre_paquet_a_acheter_en_fct_de_prix_echange_avec_1_2_3_4_5_vignette_par_cereale.csv")
+data <- read.csv("nombre_paquet_a_acheter_en_fct_de_prix_echange_avec_1_2_3_4_5_vignette_par_cereale.csv")
 
 # Renommer les colonnes pour éviter les problèmes avec plot_ly
 colnames(data) <- c("PrixD_Echange", "Function_1", "Function_2", "Function_3", "Function_4", "Function_5")
