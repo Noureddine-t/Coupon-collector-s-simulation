@@ -1,11 +1,6 @@
 # Coupon-collector-s-simulation
 
-* DOSSIER "script_r" contient 2 script pour faire une simulation et présentation graphique du problème
+* DOSSIER "script_r" contient scripts de simulation et la représentation graphique du problème
 * Lien template Latex du rapport : [Lien overleaf](https://www.overleaf.com/read/cxqhwjrzjnnq#d65cd0)
 
 ## Autre
-
-* main1 : Pour faire simulation
-* main2 : Permet de creer fichier csv (AverangeWeeksVSVignetteNumber) pour tracer courbe sur Rstudio
-* main3 : Permet de creer fichier csv (AverageWeeksVSTotalNumberOfCollection) pour tracer courbe sur Rstudio 
-* main4 : Permet de creer fichier csv (AverageWeeksVSTotalNumberOfCollection_FindingExchangeValue) pour tracer courbe sur Rstudio  

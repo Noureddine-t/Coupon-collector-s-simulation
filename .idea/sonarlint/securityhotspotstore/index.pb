@@ -21,3 +21,5 @@ b
 ˜script_r/5_nbr_de_vignette_dans_collection_en_fct_de_prix_echange/nombre_paquet_a_acheter_en_fct_de_prix_echange_avec_1_2_3_4_5_vignette_par_cereale.csv,1\2\12aa9b39ea19085e8a5cdbcf94d037051091be1b
 ¥
 uscript_r/4_visualiser_le_prix_d_echange_avec_2_vignettes/AverageWeeksVSTotalNumberOfCollection_FindingExchangeValue.R,c\6\c69c0fafb51fb8cd83e073dd632661bb84582f09
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
