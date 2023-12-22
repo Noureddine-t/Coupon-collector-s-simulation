@@ -25,7 +25,7 @@ int main() {
         averageWeeks[1] = 0;
         for (int j = 0; j < simulations; j++) {
             averageWeeks[0] += simulateWithMultipleCollections(i, 2);//vignetteNumber=1 ou 2
-            averageWeeks[1] += simulateCollectionWithExchange(i, 60);
+            averageWeeks[1] += simulateCollectionWithExchange(i, 10);
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;

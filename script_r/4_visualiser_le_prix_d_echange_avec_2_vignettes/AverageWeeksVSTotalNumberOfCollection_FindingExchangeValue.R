@@ -24,5 +24,6 @@ plot_ly(x = ~TotalCollectionNumber, y = ~AverageWeeksWithoutExchange, type = 'sc
 add_annotations(x = TotalCollectionNumber[crossing_point_index],
                 y = AverageWeeksWithExchange[crossing_point_index],
                 text = paste("Point de croisement:<br>x =", TotalCollectionNumber[crossing_point_index], "<br>y =", AverageWeeksWithExchange[crossing_point_index]),
-                showarrow = TRUE, arrowhead = 4, ax = 0, ay = -40,
+                showarrow = TRUE, arrowhead = 100, ax = 0, ay = -45,arrowcolor = "blue",  arrowsize = 1,
+                arrowwidth = 3,
                 xref = 'x', yref = 'y')

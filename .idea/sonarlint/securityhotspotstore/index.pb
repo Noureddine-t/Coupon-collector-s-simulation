@@ -3,14 +3,10 @@
 main.cpp,6\8\682a50d19e416195436708e48c7761923b8d6651
 ;
 Functions.h,8\2\82b2dd8ff1a8809ac7e84988faaaf23a30d8c8fb
-9
-	main2.cpp,c\7\c7f6481e1d3f40482a4153d8bc9c68fbd7272583
 >
 CMakeLists.txt,9\a\9a2aa4db38d3115ed60da621e012c0efc0172aae
 9
 	main3.cpp,9\3\93d019cd6a90c30dd9df938fc1048df64814c42a
-b
-2script_r/_SemainesEnFonctionDeNombreA_Collecte.csv,6\6\66f13efd6933702d27b9963857b19854ba19d7a4
 9
 	main4.cpp,9\1\91112b18d04025f75b36586209c34b41cc401897
 9
@@ -23,3 +19,11 @@ b
 uscript_r/4_visualiser_le_prix_d_echange_avec_2_vignettes/AverageWeeksVSTotalNumberOfCollection_FindingExchangeValue.R,c\6\c69c0fafb51fb8cd83e073dd632661bb84582f09
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Š
+Zscript_r/3_AverageWeeksVSTotalNumberOfCollection/_SemainesEnFonctionDeNombreA_Collecte.csv,1\d\1dc86c4cf1a4e73d44673074cd7ae5e62066a027
+‘
+ascript_r/3_AverageWeeksVSTotalNumberOfCollection/_SemainesEnFonctionDeNombreA_Collecte_Avec_2.csv,8\8\8842d9247165583742487e7c1f504cef94cbc978
+9
+	main6.cpp,5\c\5c476a2bba9b132542bd0892cb02916ca4bbe8db
+É
+˜script_r/6_CollectionNumber_en_fonction_du_taux_echange/_CollectionNumber_en_fonction_du_taux_echange_pour_croiser_deux_courbe_avec_vignetteNumber_2.csv,e\8\e8ee8136d70c53d03a121b21a228024d94f0623c

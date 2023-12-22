@@ -7,8 +7,8 @@ int main() {
     int averageWeeks[2];
 
     // Open the CSV file for writing
-    //std::ofstream outputFile("_SemainesEnFonctionDeNombreA_Collecte.csv");
-    std::ofstream outputFile("_SemaineEnFonctionDeNombreA_Collecte_Avec_2.csv");
+    std::ofstream outputFile("_SemainesEnFonctionDeNombreA_Collecte.csv");
+    //std::ofstream outputFile("_SemainesEnFonctionDeNombreA_Collecte_Avec_2.csv");
     // Check if the file is opened successfully
     if (!outputFile.is_open()) {
         std::cerr << "Error opening output file!" << std::endl;
@@ -16,15 +16,15 @@ int main() {
     }
 
     // Write header to the CSV file
-    //outputFile << "NbrTotalDeCollection, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
     outputFile << "NbrTotalDeCollection, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
+    //outputFile << "NbrTotalDeCollection, AverageWeeksWithoutExchange, AverageWeeksWithExchange" << std::endl;
     for (int i = 1; i <= N; i++) {
         std::cout << "N=" << i << std::endl;
         averageWeeks[0] = 0;
         averageWeeks[1] = 0;
         for (int j = 0; j < simulations; j++) {
-            averageWeeks[0] += simulateWithMultipleCollections(i, 2); //vignetteNumber=1 ou 2
-            averageWeeks[1] += simulateWithMultipleCollectionsWithExchange(i, 2);//vignetteNumber=1 ou 2
+            averageWeeks[0] += simulateWithMultipleCollections(i, 1/*1 ou 2*/); //vignetteNumber=1 ou 2
+            averageWeeks[1] += simulateWithMultipleCollectionsWithExchange(i, 1/* 1 ou 2*/);//vignetteNumber=1 ou 2
         }
         averageWeeks[0] /= simulations;
         averageWeeks[1] /= simulations;

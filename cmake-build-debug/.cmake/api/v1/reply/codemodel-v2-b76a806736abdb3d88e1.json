@@ -53,30 +53,30 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Main2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Main2-Debug-5b86126392e08cb29d1a.json",
-					"name" : "Main2",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "Main3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Main3-Debug-39f551243ecf57739069.json",
+					"jsonFile" : "target-Main3-Debug-18ea356a087222620f37.json",
 					"name" : "Main3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Main4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Main4-Debug-a547307bd5d447e423f6.json",
+					"jsonFile" : "target-Main4-Debug-3adc9d48d584ac8a6064.json",
 					"name" : "Main4",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Main5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Main5-Debug-137f49b1994ac9461f31.json",
+					"jsonFile" : "target-Main5-Debug-d44a66104cd497076d4f.json",
 					"name" : "Main5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Main6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Main6-Debug-bb74dfeae9b22ac996b5.json",
+					"name" : "Main6",
 					"projectIndex" : 0
 				}
 			]

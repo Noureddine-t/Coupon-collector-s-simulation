@@ -1,3 +1,7 @@
+# Install and load the required library
+# install.packages("plotly")
+library(plotly)
+
 # Définir le nombre total de vignettes dans la collection
 N <- 500
 
@@ -39,6 +43,27 @@ moyenne <- apply(resultats, 1, mean)
 # Afficher le résultat
 cat("Nombre moyen de semaines pour compléter la collection :", moyenne[N], "\n")
 
-# Tracer la courbe
-plot(moyenne, 1:N, type = "l", xlab = "Nombre de semaines" , ylab = "Nombre de vignettes collectées")
+# Tracer la courbe avec plotly
+plot_data <- data.frame(Weeks = moyenne, Vignettes = 1:N)
 
+p <- plot_ly(data = plot_data, x = ~Weeks, y = ~Vignettes, type = 'scatter', mode = 'lines', line = list(color = 'blue'), name = 'Simulation') %>%
+  layout(
+    xaxis = list(title = 'Nombre de semaines'),
+    yaxis = list(title = 'Nombre de vignettes collectées'),
+    title = 'Simulation du temps pour compléter la collection'
+  )
+
+# Ajouter une annotation pour le nombre moyen de semaines
+p <- add_annotations(
+  p,
+  x = moyenne[N], y = N,
+  text = paste("Nombre moyen de semaines : ", round(moyenne[N], 2)),
+  showarrow = TRUE,
+  arrowhead = 2,
+  arrowsize = 1,
+  arrowwidth = 2,
+  arrowcolor = "red"
+)
+
+# Afficher le graphe
+p

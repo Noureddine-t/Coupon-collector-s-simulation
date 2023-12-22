@@ -74,39 +74,6 @@ build Coupon-collector-s-simulation.exe: CXX_EXECUTABLE_LINKER__Coupon-collector
   TARGET_PDB = Coupon-collector-s-simulation.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Main2
-
-
-#############################################
-# Order-only phony target for Main2
-
-build cmake_object_order_depends_target_Main2: phony || CMakeFiles/Main2.dir
-
-build CMakeFiles/Main2.dir/main2.cpp.obj: CXX_COMPILER__Main2_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/main2.cpp || cmake_object_order_depends_target_Main2
-  DEP_FILE = CMakeFiles\Main2.dir\main2.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Main2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Main2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Main2
-
-
-#############################################
-# Link the executable Main2.exe
-
-build Main2.exe: CXX_EXECUTABLE_LINKER__Main2_Debug CMakeFiles/Main2.dir/main2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Main2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Main2.exe
-  TARGET_IMPLIB = libMain2.dll.a
-  TARGET_PDB = Main2.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Main3
 
 
@@ -205,6 +172,39 @@ build Main5.exe: CXX_EXECUTABLE_LINKER__Main5_Debug CMakeFiles/Main5.dir/main5.c
   TARGET_IMPLIB = libMain5.dll.a
   TARGET_PDB = Main5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Main6
+
+
+#############################################
+# Order-only phony target for Main6
+
+build cmake_object_order_depends_target_Main6: phony || CMakeFiles/Main6.dir
+
+build CMakeFiles/Main6.dir/main6.cpp.obj: CXX_COMPILER__Main6_unscanned_Debug G$:/dossier$ bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/main6.cpp || cmake_object_order_depends_target_Main6
+  DEP_FILE = CMakeFiles\Main6.dir\main6.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Main6.dir
+  OBJECT_FILE_DIR = CMakeFiles\Main6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Main6
+
+
+#############################################
+# Link the executable Main6.exe
+
+build Main6.exe: CXX_EXECUTABLE_LINKER__Main6_Debug CMakeFiles/Main6.dir/main6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Main6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Main6.exe
+  TARGET_IMPLIB = libMain6.dll.a
+  TARGET_PDB = Main6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -233,13 +233,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Coupon-collector-s-simulation: phony Coupon-collector-s-simulation.exe
 
-build Main2: phony Main2.exe
-
 build Main3: phony Main3.exe
 
 build Main4: phony Main4.exe
 
 build Main5: phony Main5.exe
+
+build Main6: phony Main6.exe
 
 # =============================================================================
 # Folder targets.
@@ -249,7 +249,7 @@ build Main5: phony Main5.exe
 #############################################
 # Folder: G:/dossier bureau/workspace/CLionProjects/ESIREM/Coupon_collection/Coupon-collector-s-simulation/cmake-build-debug
 
-build all: phony Coupon-collector-s-simulation.exe Main2.exe Main3.exe Main4.exe Main5.exe
+build all: phony Coupon-collector-s-simulation.exe Main3.exe Main4.exe Main5.exe Main6.exe
 
 # =============================================================================
 # Built-in targets

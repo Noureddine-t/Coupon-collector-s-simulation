@@ -1,5 +1,5 @@
 # Read CSV file
-data <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\AverangeWeeksVSVignetteNumber.csv")
+data <- read.csv("G:\\dossier bureau\\workspace\\CLionProjects\\ESIREM\\Coupon_collection\\Coupon-collector-s-simulation\\script_r\\2_AverangeWeeksVSVignetteNumber\\AverangeWeeksVSVignetteNumber.csv")
 
 # Extract data for plotting
 N <- data$N
