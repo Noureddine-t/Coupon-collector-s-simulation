@@ -260,7 +260,7 @@ int simulateCollectionWithExchange(int collectionNumber, int Exchange) {
 
 
         //faire echange a la fin (si nombre de vignettes manquantes = doublons/10 on echange) et mettre fin
-        if (notCollectedCounter == duplicatesVignette / Exchange) {
+        if (notCollectedCounter <= duplicatesVignette / Exchange) {
             break;
         }
 
@@ -327,7 +327,7 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
                 duplicatesVignette++;
 
         }
-        if (notCollectedCounter == duplicatesVignette / exchange) {
+        if (notCollectedCounter <= duplicatesVignette / exchange) {
             break;
         }
 

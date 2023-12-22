@@ -13,14 +13,10 @@ b
 2script_r/_SemainesEnFonctionDeNombreA_Collecte.csv,6\6\66f13efd6933702d27b9963857b19854ba19d7a4
 9
 	main4.cpp,9\1\91112b18d04025f75b36586209c34b41cc401897
-‡
-Wscript_r/test/_SemaineEnFonctionDeNombreA_Collecte_Avec_2_Determiner_taux_d_echange.csv,7\0\70c6b7090474f61737de91fcc8042942b9c476a1
 9
 	main5.cpp,a\4\a4f439685a2bdc4f576c98e1ec66169efffabb2f
 ³
 ‚script_r/4_visualiser_le_prix_d_echange_avec_2_vignettes/_SemaineEnFonctionDeNombreA_Collecte_Avec_2_Determiner_taux_d_echange.csv,9\6\965dffd6bb05dea91d1fe2ccf3df0704b21a7809
-¬
-|script_r/5_nbr_de_vignette_dans_collection_en_fct_de_prix_echange/nbr_de_vignette_dans_collection_en_fct_de_prix_echange.csv,4\b\4b5beef6dd2a6b591c3df94f51ba8855b4b562ab
 É
 ˜script_r/5_nbr_de_vignette_dans_collection_en_fct_de_prix_echange/nombre_paquet_a_acheter_en_fct_de_prix_echange_avec_1_2_3_4_5_vignette_par_cereale.csv,1\2\12aa9b39ea19085e8a5cdbcf94d037051091be1b
 ¥

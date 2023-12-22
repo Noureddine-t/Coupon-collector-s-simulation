@@ -25,7 +25,7 @@ plot_ly() %>%
   add_trace(x = ~PrixD_Echange, y = ~Function_3, name = '3 vignette dans le céréale', type = 'scatter', mode = 'lines') %>%
   add_trace(x = ~PrixD_Echange, y = ~Function_4, name = '4 vignette dans le céréale', type = 'scatter', mode = 'lines') %>%
   add_trace(x = ~PrixD_Echange, y = ~Function_5, name = '5 vignette dans le céréale', type = 'scatter', mode = 'lines') %>%
-  layout(title = 'nombre de semaines VS de prix d echange pour nombre de vignettes 1 2 3 4 5',
+  layout(title = 'nombre de semaines (collection de 500) VS prix d echange pour nombre de vignettes 1 2 3 4 5',
          xaxis = list(title = 'Prix d\'echange'),
          yaxis = list(title = 'nombres de paquets a acheter/nombre de semaines', rangemode = "tozero", range = c(0, max_range), showline = TRUE))
 
