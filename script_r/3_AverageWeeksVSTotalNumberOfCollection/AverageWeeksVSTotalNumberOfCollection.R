@@ -1,12 +1,15 @@
 # Install and load the required library
 #install.packages("plotly")
+
 library(plotly)
+
 # Obtenez le chemin du répertoire du script R
 script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
 
 # Changez le répertoire de travail
 setwd(script_directory)
-# Read CSV file
+
+# Lire fichier CSV
 data <- read.csv("_SemainesEnFonctionDeNombreA_Collecte.csv")
 data2 <- read.csv("_SemainesEnFonctionDeNombreA_Collecte_Avec_2.csv")
 
@@ -29,25 +32,31 @@ max_range <- max(max(AverageWeeksWithoutExchange, AverageWeeksWithExchange, Aver
 p <- plot_ly()
 
 # Ajouter des traces pour chaque courbe
-p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithoutExchange, type = 'scatter', mode = 'lines+markers', line = list(color = 'blue'), marker = list(color = 'blue', size = 3), name = 'Without Exchange')
-p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithExchange, type = 'scatter', mode = 'lines+markers', line = list(color = 'red'), marker = list(color = 'red', size = 3), name = 'With Exchange')
-p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithoutExchange2, type = 'scatter', mode = 'lines+markers', line = list(color = 'purple'), marker = list(color = 'purple', size = 3), name = '2 Without Exchange')
-p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithExchange2, type = 'scatter', mode = 'lines+markers', line = list(color = 'orange'), marker = list(color = 'orange', size = 3), name = '2 With Exchange')
+#mode = 'lines+markers'
+#marker = list(color = 'blue', size = 3)
 
 # Valeur théorique
-p <- add_trace(p, x = TotalCollectionNumber, y = theoreticalValues, type = 'scatter', mode = 'lines+markers', line = list(color = 'green'), marker = list(color = 'green', size = 3), name = 'Theoretical Value')
+p <- add_trace(p, x = TotalCollectionNumber, y = theoreticalValues, type = 'scatter', mode = 'lines', line = list(color = 'green'),  name = 'Valeurs théorique')
+
+# valeurs calculées
+p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithoutExchange, type = 'scatter', mode = 'lines', line = list(color = 'blue'),  name = '1 vignette sans echange')
+p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithExchange, type = 'scatter', mode = 'lines', line = list(color = 'red'),  name = '1 vignette avec echange de 10 doublons')
+p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithoutExchange2, type = 'scatter', mode = 'lines', line = list(color = 'purple'),  name = '2 vignettes sans echange')
+p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithExchange2, type = 'scatter', mode = 'lines', line = list(color = 'orange'), name = '2 vignettes avec echange de 10 doublons')
+
+
 
 # Mise à jour de la mise en page
 p <- p %>%
   layout(
-    xaxis = list(title = 'TotalCollectionNumber'),
+    xaxis = list(title = 'Nombre total de vignettes dans la collection'),
     yaxis = list(
-      title = 'nombres de paquets a acheter/nombre de semaines',
+      title = 'nombres de paquets à acheter/nombre de semaines',
       rangemode = "tozero",
       range = c(0, max_range),
       showline = TRUE
     ),
-    title = 'Average Weeks vs TotalCollectionNumber'
+    title = 'Nombre de semaines necessaires pour completer la collection en fonction du nombre de vignettes dans la collection (avec ou sans echange, pour 1 ou 2 vignette(s) dans le paquet de céréale)'
   )
 
 # Afficher le graphique

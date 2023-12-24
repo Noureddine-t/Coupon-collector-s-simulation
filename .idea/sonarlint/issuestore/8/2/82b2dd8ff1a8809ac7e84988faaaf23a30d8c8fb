@@ -1,6 +1,4 @@
 
-N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8¢ÇøÃÈ1
-O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8£ÇøÃÈ1
 H	cpp:S5827"'Replace the redundant type with "auto".(“×¶Ôùÿÿÿÿ8æÅøÃÈ1
 V	cpp:S50255":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™8øìµûÆ1
 r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8çÅøÃÈ1
@@ -39,6 +37,8 @@ W	cpp:S5025Ø":Rewrite the code so that you no longer need this "delete".(ÖÙˆ™
 s	cpp:S5025›"QReplace the use of "new" with an operation that automatically manages the memory.(“×¶Ôùÿÿÿÿ8óÅøÃÈ1
 s	cpp:S5025¨"QReplace the use of "new" with an operation that automatically manages the memory.(£“Óÿÿÿÿÿ8õÅøÃÈ1
 Q	cpp:S5020³"/Replace "rand" with the facilities in <random>.(¤”„Öşÿÿÿÿ8öÅøÃÈ1
-N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8£ÇøÃÈ1
-O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8È¢‹”É1
+N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8¢ÇøÃÈ1
+O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8£ÇøÃÈ1
 O	cpp:S3584¦"2Potential leak of memory pointed to by 'collected'(È¸å8È¢‹”É1
+N	cpp:S3584o"2Potential leak of memory pointed to by 'collected'(È¸å8£Œ‘éÉ1
+O	cpp:S3584«"2Potential leak of memory pointed to by 'collected'(È¸å8«Œ‘éÉ1

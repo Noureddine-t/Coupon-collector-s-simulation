@@ -5,6 +5,7 @@
 #include <fstream>
 #include "Functions.h"
 
+//influence du prix d echange sur la durée pour completer la collection dans le cas de 1 2 3 4 5 vignettes dans le céréale
 int main() {
     int N = 500;
     int simulations = 5000;

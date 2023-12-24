@@ -4,6 +4,7 @@
 #include <fstream>
 #include "Functions.h"
 
+//point d'intersection des deux courbes dex
 int main() {
     int N = 500;
     int simulations = 5000;

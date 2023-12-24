@@ -50,7 +50,7 @@ p <- plot_ly(data = plot_data, x = ~Weeks, y = ~Vignettes, type = 'scatter', mod
   layout(
     xaxis = list(title = 'Nombre de semaines'),
     yaxis = list(title = 'Nombre de vignettes collectées'),
-    title = 'Simulation du temps pour compléter la collection'
+    title = 'Nombre de vignettes collectées en fonction du temps (nombres de semaines)'
   )
 
 # Ajouter une annotation pour le nombre moyen de semaines

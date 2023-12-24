@@ -1,4 +1,4 @@
 
-Y	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(ρΪυ8δί†ΟΘ1
-_	cpp:S5566"CChange this raw for-loop to a range for-loop or an "std::for_each".(¬Υ’έ8εί†ΟΘ1
-_	cpp:S5566$"CChange this raw for-loop to a range for-loop or an "std::for_each".(¬Υ’έ8εί†ΟΘ1
+Y	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(ρΪυ8δί†ΟΘ1
+_	cpp:S5566"CChange this raw for-loop to a range for-loop or an "std::for_each".(¬Υ’έ8εί†ΟΘ1
+_	cpp:S5566%"CChange this raw for-loop to a range for-loop or an "std::for_each".(¬Υ’έ8εί†ΟΘ1
