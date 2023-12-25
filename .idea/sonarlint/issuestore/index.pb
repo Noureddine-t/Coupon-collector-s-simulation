@@ -40,3 +40,5 @@ uScript_r/4_visualiser_le_prix_d_echange_avec_2_vignettes/AverageWeeksVSTotalNum
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+=
+Functions.cpp,1\e\1ebfe5af0a2a90279402ecb6a6b50f492d2dc511
