@@ -18,7 +18,7 @@ crossing_point_index <- which(AverageWeeksWithExchange < AverageWeeksWithoutExch
 
 max_range <- max(AverageWeeksWithExchange, AverageWeeksWithoutExchange) + 100
 
-# Créer le graphique interactif avec plotly
+# Créer le graphique
 plot_ly(x = ~TotalCollectionNumber, y = ~AverageWeeksWithoutExchange, type = 'scatter', mode = 'lines', line = list(color = 'purple'), name = '2 vignettes sans echange') %>%
   add_trace(x = ~TotalCollectionNumber, y = ~AverageWeeksWithExchange, type = 'scatter', mode = 'lines', line = list(color = 'red'), name = '1 vignette avec echange de 10 doublons') %>%
   layout(title = 'Nombre de semaines nécessaires pour completer la collection en fonction du nombre de vignettes dans la collection', 
