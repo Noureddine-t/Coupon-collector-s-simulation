@@ -22,7 +22,7 @@ int main() {
         std::cout << std::endl;
 
 
-        double averageWeeks[] = {0, 0, 0, 0,};//semaines necessaires avec echange et sans echange
+        double averageWeeks[] = {0, 0, 0, 0};//semaines necessaires avec echange et sans echange
 
         //calcule moyenne de semaines
         for (int i = 0; i < simulations; i++) {

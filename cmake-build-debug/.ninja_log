@@ -1,5 +1,5 @@
 # ninja log v5
-0	293	7264369566202626	build.ninja	eb2fa61cd86d8668
+0	293	7272301189497405	build.ninja	eb2fa61cd86d8668
 590	790	7248185466204801	Coupon-collector-s-simulation.exe	16fe4b88424aab9e
 2	1224	7249822876995579	CMakeFiles/Main5.dir/main5.cpp.obj	6ad89cebed9c90cf
 854	1133	7207295773860857	Coupon_collection.exe	1d32f1636921c9e5
@@ -10,5 +10,18 @@
 641	883	7249822832149077	Main4.exe	37832e68957e8e79
 2	641	7249822830325093	CMakeFiles/Main4.dir/main4.cpp.obj	f18a2c1e3b82e09c
 1225	1486	7249822883491089	Main5.exe	f43f76aa18816299
-3	1097	7251669619275204	CMakeFiles/Main6.dir/main6.cpp.obj	7cafadf699662bd4
-1097	1450	7251669622302350	Main6.exe	8074dec50bd2e71e
+2	559	7272300919557940	CMakeFiles/Main6.dir/main6.cpp.obj	7cafadf699662bd4
+571	726	7272300921195341	Main6.exe	31a9e65b14770e40
+42	571	7272300919683019	CMakeFiles/Main6.dir/Functions.cpp.obj	8b0619aa81925003
+2	522	7272301580442429	CMakeFiles/Coupon-collector-s-simulation.dir/Functions.cpp.obj	9d5202b6b24edc57
+42	561	7272301580829994	CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj	bee0bca0c493d700
+561	703	7272301582209906	Coupon-collector-s-simulation.exe	aca39e3d8283766
+2	574	7273007672683363	CMakeFiles/Coupon-collector-s-simulation.dir/Functions.cpp.obj	9d5202b6b24edc57
+47	606	7273007673003384	CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj	bee0bca0c493d700
+606	777	7273007674675029	Coupon-collector-s-simulation.exe	aca39e3d8283766
+2	572	7273008242552753	CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj	bee0bca0c493d700
+572	718	7273008243983523	Coupon-collector-s-simulation.exe	aca39e3d8283766
+1	542	7273008448056272	CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj	bee0bca0c493d700
+542	691	7273008449501630	Coupon-collector-s-simulation.exe	aca39e3d8283766
+2	561	7273008774470370	CMakeFiles/Coupon-collector-s-simulation.dir/main.cpp.obj	bee0bca0c493d700
+561	705	7273008775877869	Coupon-collector-s-simulation.exe	aca39e3d8283766

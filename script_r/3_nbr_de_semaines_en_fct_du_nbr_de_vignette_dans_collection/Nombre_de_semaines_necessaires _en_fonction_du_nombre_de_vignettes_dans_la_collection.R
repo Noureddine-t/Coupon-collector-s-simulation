@@ -1,6 +1,6 @@
 # Install and load the required library
 #install.packages("plotly")
-
+#1500 650
 library(plotly)
 
 # Obtenez le chemin du répertoire du script R
@@ -25,6 +25,11 @@ theoreticalValues <- sapply(TotalCollectionNumber, function(collectionNumber) {
   sum(1 / (1:collectionNumber)) * collectionNumber
 })
 
+# Developpement asymptotique
+asymptotiqueDevValues <- sapply(TotalCollectionNumber, function(collectionNumber) {
+  collectionNumber * log(collectionNumber) + 0.57721 * collectionNumber + 0.5
+})
+
 # Calculate the maximum range for the y-axis
 max_range <- max(max(AverageWeeksWithoutExchange, AverageWeeksWithExchange, AverageWeeksWithoutExchange2, AverageWeeksWithExchange2, theoreticalValues)) + 100
 
@@ -37,6 +42,9 @@ p <- plot_ly()
 
 # Valeur théorique
 p <- add_trace(p, x = TotalCollectionNumber, y = theoreticalValues, type = 'scatter', mode = 'lines', line = list(color = 'green'),  name = 'Valeurs théorique')
+
+# Developpement asymptotique
+#p <- add_trace(p, x = TotalCollectionNumber, y = asymptotiqueDevValues, type = 'scatter', mode = 'lines', line = list(color = 'purple'),  name = 'Développement asymptotique')
 
 # valeurs calculées
 p <- add_trace(p, x = TotalCollectionNumber, y = AverageWeeksWithoutExchange, type = 'scatter', mode = 'lines', line = list(color = 'blue'),  name = '1 vignette sans echange')
@@ -56,7 +64,8 @@ p <- p %>%
       range = c(0, max_range),
       showline = TRUE
     ),
-    title = 'Nombre de semaines necessaires pour completer la collection en fonction du nombre de vignettes dans la collection (avec ou sans echange, pour 1 ou 2 vignette(s) dans le paquet de céréale)'
+    #Nombre de semaines necessaires pour completer la collection en fonction du nombre de vignettes dans la collection (avec ou sans echange, pour 1 ou 2 vignette(s) dans le paquet de céréale)
+    title = 'nombre de semaines en fonction du  Nombre de vignettes collectées'
   )
 
 # Afficher le graphique
