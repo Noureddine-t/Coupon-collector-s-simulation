@@ -24,4 +24,8 @@ int simulateCollectionWithExchange(int collectionNumber, int Exchange);
 
 int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignetteNumber, int Exchange);
 
+double theoricalValueUsingHarmonicSerieMultipleCollections(int collectionNumber, int vignetteNumber);
+
+double theoricalValueUsingAsymptoticDevelopmentMultipleCollections(int collectionNumber, int vignetteNumber);
+
 #endif //COUPON_COLLECTOR_S_SIMULATION_FUNCTIONS_H

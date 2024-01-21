@@ -313,3 +313,16 @@ int simulateWithMultipleCollectionsWithExchange(int collectionNumber, int vignet
 
     return weeks;
 }
+
+//on utilisant série harmonique: E(T)/k
+double theoricalValueUsingHarmonicSerieMultipleCollections(int collectionNumber, int vignetteNumber) {
+    double somme = 0;
+    for (int i = 1; i <= collectionNumber; i++)
+        somme += 1.0 / i;
+    return (collectionNumber * somme) / vignetteNumber;
+}
+
+//on utilisant En utilisant le développement asymptotique (E(Tn)=n⋅Hn=nln(n)+γ⋅n+1/2+o(1))/k
+double theoricalValueUsingAsymptoticDevelopmentMultipleCollections(int collectionNumber, int vignetteNumber) {
+    return (collectionNumber * (std::log(collectionNumber) + 0.57721) + 1. / 2) / vignetteNumber;  // Utilise ln(n) + γ;
+}

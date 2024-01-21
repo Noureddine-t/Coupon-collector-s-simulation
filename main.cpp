@@ -43,6 +43,7 @@ int main() {
                   << collectionNumber << " vignettes sans echange." << std::endl;
         std::cout << ">> Il faut en moyenne " << averageWeeks[1] << " semaines pour completer la collection de "
                   << collectionNumber << " vignettes avec echange 10 contre 1." << std::endl;
+
         std::cout << ">> Il faut en moyenne " << averageWeeks[2] << " semaines pour completer la collection de "
                   << collectionNumber << " vignettes avec " << vignetteNumber << " dans la boite de cereales"
                   << std::endl;
@@ -50,6 +51,7 @@ int main() {
                   << collectionNumber << " vignettes avec echange et " << vignetteNumber
                   << " vignette(s) dans la boite de cereales"
                   << std::endl << std::endl;
+
         std::cout << "-Valeur theorique :" << std::endl;
         std::cout << ">> Il faut en moyenne " << theoricalValueUsingHarmonicSerie(collectionNumber)
                   << " semaines pour completer la collection de "
@@ -58,6 +60,19 @@ int main() {
         std::cout << ">> Il faut en moyenne " << theoricalValueUsingAsymptoticDevelopment(collectionNumber)
                   << " semaines pour completer la collection de "
                   << collectionNumber << " vignettes sans echange a l'aide de l'approximation de la forumule theorique."
+                  << std::endl;
+
+        std::cout << ">> Il faut en moyenne "
+                  << theoricalValueUsingHarmonicSerieMultipleCollections(collectionNumber, vignetteNumber)
+                  << " semaines pour completer la collection de "
+                  << collectionNumber << " vignettes avec " << vignetteNumber
+                  << " vignettes dans la boite de cereales à l'aide de la formule theorique E(T)/k."
+                  << std::endl;
+        std::cout << ">> Il faut en moyenne "
+                  << theoricalValueUsingAsymptoticDevelopmentMultipleCollections(collectionNumber, vignetteNumber)
+                  << " semaines pour completer la collection de "
+                  << collectionNumber << " vignettes avec " << vignetteNumber
+                  << " vignettes dans la boite de cereales avec la formule de developpement asymptotique de E(T)/k."
                   << std::endl;
     }
     return 0;
