@@ -32,3 +32,12 @@
 *.app
 
 cmake-build-debug
+
+# Other files
+*.zip
+**/*.zip
+Projet/
+Recycle\ bin/
+Images/
+Présentation/
+Rapport/
